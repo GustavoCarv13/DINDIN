@@ -1,0 +1,266 @@
+/*após finalizar as 2 páginas pude perceber uma ótima evolução e que poderia ter feito melhor, mas não
+editarei essa para ficar exposto a primeira maneira como imaginei a estrutura da página*/
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.cabeçalho {
+    display: flex;
+    width: 100%;
+    height: 15%;
+    background-color: #2E948A;
+}
+
+.cabeçalho img {
+    width: 75%px;
+    height: 70%;
+    margin-left: 7%;
+    margin-top: 0.9%;
+}
+
+.cabeçalho nav {
+    display: flex;
+    margin-top: 38px;
+    padding-left: 670px;
+    gap: 40px;
+    font-size: 20px;
+    color: white;
+}
+
+
+.intro {
+    display: flex;
+    width: 317px;
+    height: 92px;
+    margin-left: 82px;
+    margin-top: 60px;
+}
+
+.cursos {
+    width: 263px;
+    height: 69px;
+    left: 82px;
+    top: 198px;
+    color: #FF4081;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 69px;
+}
+
+.text-cursos {
+    display: flex;
+    font-style: bold;
+    font-size: 20px;
+    margin-left: -265px;
+    margin-top: 60px;
+}
+
+.todos-cursos {
+    display: block;
+    margin-top: -300px;
+}
+
+.curso1 {
+    display: flex;
+    width: 1157px;
+    height: 381px;
+    margin-top: 385px;
+    margin-left: 112px;
+}
+
+.curso2 {
+    display: flex;
+    width: 1157px;
+    height: 381px;
+    margin-top: 200px;
+    margin-left: 112px;
+}
+
+.curso3 {
+    display: flex;
+    width: 1157px;
+    height: 381px;
+    margin-top: 200px;
+    margin-left: 112px;
+}
+
+.curso1 button {
+    position: absolute;
+    cursor: pointer;
+    width: 233px;
+    height: 51px;
+    margin-top: 250px;
+    margin-left: 545px;
+    border-radius: 62px;
+    color: white;
+    background-color: #419488;
+    border: none;
+}
+
+.curso2 button {
+    position: absolute;
+    cursor: pointer;
+    width: 233px;
+    height: 51px;
+    margin-top: 250px;
+    margin-left: 545px;
+    border-radius: 62px;
+    color: white;
+    background-color: #419488;
+    border: none;
+}
+
+.curso3 button {
+    position: absolute;
+    cursor: pointer;
+    width: 233px;
+    height: 51px;
+    margin-top: 250px;
+    margin-left: 545px;
+    border-radius: 62px;
+    color: white;
+    background-color: #419488;
+    border: none;
+}
+
+.curso1 h2 {
+    margin-top: 60px;
+    margin-left: 100px;
+    width: 2000px;
+    height: 200px;
+    color: #FF4081;
+    font-size: 30px;
+    text-align: left;
+}
+
+.curso2 h2 {
+    margin-top: 60px;
+    margin-left: 100px;
+    width: 2000px;
+    height: 200px;
+    color: #FF4081;
+    font-size: 30px;
+    text-align: left;
+}
+
+.curso3 h2 {
+    margin-top: 60px;
+    margin-left: 180px;
+    width: 2000px;
+    height: 200px;
+    color: #FF4081;
+    font-size: 30px;
+    text-align: left;
+}
+
+.curso1 p {
+    font-size: 18px;
+    margin-top: 120px;
+    margin-left: -500px;
+}
+
+.curso2 p {
+    font-size: 18px;
+    margin-top: 120px;
+    margin-left: -500px;
+}
+
+.curso3 p {
+    font-size: 18px;
+    margin-top: 120px;
+    margin-left: -500px;
+}
+.rodape {
+    display: flex;
+    background-color: #419488;
+    width: 100%;
+    height: 135px;
+    margin-top: 200px;
+}
+
+.rodape img {
+    width: 45%;
+    height: 70%;
+    margin-top: 2.5%;
+    margin-left: 16%;
+}
+
+.rodape-txt {
+    margin-left: 650px;
+    margin-top: -80px;
+    font-size: 20px;
+    color: white;
+}
+
+.rodape-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 25%;
+    font-size: 40px;
+    gap: 10px;
+    margin-top: 5%px;
+}
+
+#button1 {
+    background-color: #419488;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    border: 2px solid #FFFFFF;
+    border-radius: 62px;
+    padding: 8px 40px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+#button2 {
+    background-color: #419488;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    border: 2px solid #FFFFFF;
+    border-radius: 62px;
+    padding: 8px 40px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.line1 {
+    height: 4px;
+    width: 1253px;
+    background-color: #C4C4C4;
+    border-radius: 59px;
+    margin-left: 45px;
+    margin-top: 145px;
+}
+
+.line2 {
+    height: 4px;
+    width: 1253px;
+    background-color: #C4C4C4;
+    border-radius: 59px;
+    margin-left: 45px;
+    margin-top: 145px;
+}
+
+@media(max-width: 900px) {
+    .curso1 img {
+        width: 200px;
+        height: 200px;
+    }
+}
+@media(max-width: 800px) {
+    .rodape nav  {
+        margin-left: 300px;
+    }
+}
+@media(max-width: 800px) {
+    .rodape-button  {
+        margin-left: 100px;
+    }
+}
